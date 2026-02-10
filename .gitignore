@@ -1,0 +1,13 @@
+.vs
+bin
+obj
+QuickCode.Demo-kahve.Api/bin
+QuickCode.Demo-kahve.Api/obj
+QuickCode.Demo-kahve.Portal/bin
+QuickCode.Demo-kahve.Portal/obj
+QuickCode.Demo-kahve.Web/bin
+QuickCode.Demo-kahve.Web/obj
+QuickCode.Demo-kahve.DataLayer/bin
+QuickCode.Demo-kahve.DataLayer/obj
+.DS_Store
+/src/.idea

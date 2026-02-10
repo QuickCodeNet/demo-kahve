@@ -1,0 +1,108 @@
+services:
+  demo-kahve-pg-data:
+    container_name: "demo-kahve-pg-data"
+    image: postgres:18
+
+  demo-kahve-sql-data:
+    container_name: "demo-kahve-sql-data"
+    image: mcr.microsoft.com/mssql/server:2025-latest
+    
+  demo-kahve-mysql-data:
+    container_name: "demo-kahve-mysql-data"
+    image: mysql:8.3
+
+  demo-kahve-elasticsearch:
+    container_name: demo-kahve-elasticsearch
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.11.0
+
+  demo-kahve-kibana:
+    container_name: demo-kahve-kibana
+    image: docker.elastic.co/kibana/kibana:8.11.0
+
+  quickcode-demo-kahve-gateway-api:
+    container_name: "quickcode-demo-kahve-gateway-api"
+    image: ${DOCKER_REGISTRY-}quickcode-demo-kahve-gateway-api
+    build:
+      context: .
+      dockerfile: Presentation/QuickCode.Demo-kahve.Gateway/Dockerfile
+
+  quickcode-demo-kahve-identity-module-api:
+    container_name: "quickcode-demo-kahve-identity-module-api"
+    image: ${DOCKER_REGISTRY-}quickcode-demo-kahve-identity-module-api
+    build:
+      context: . 
+      dockerfile: Modules/IdentityModule/Presentation/QuickCode.Demo-kahve.IdentityModule.Api/Dockerfile
+    depends_on:
+      - demo-kahve-sql-data
+      - demo-kahve-pg-data
+      
+
+  quickcode-demo-kahve-production-module-module-api:
+    container_name: "quickcode-demo-kahve-production-module-module-api"
+    image: ${DOCKER_REGISTRY-}quickcode-demo-kahve-production-module-module-api
+    build:
+      context: . 
+      dockerfile: Modules/ProductionModuleModule/Presentation/QuickCode.Demo-kahve.ProductionModuleModule.Api/Dockerfile
+    depends_on:
+      - demo-kahve-sql-data
+      - demo-kahve-pg-data
+      
+
+  quickcode-demo-kahve-recipe-module-module-api:
+    container_name: "quickcode-demo-kahve-recipe-module-module-api"
+    image: ${DOCKER_REGISTRY-}quickcode-demo-kahve-recipe-module-module-api
+    build:
+      context: . 
+      dockerfile: Modules/RecipeModuleModule/Presentation/QuickCode.Demo-kahve.RecipeModuleModule.Api/Dockerfile
+    depends_on:
+      - demo-kahve-sql-data
+      - demo-kahve-pg-data
+      
+
+#[-WEB-]
+  
+  demo-kahve-zookeeper:
+    image: confluentinc/cp-zookeeper:7.5.0
+    container_name: demo-kahve-zookeeper
+    ports:
+      - "${ZOOKEEPER_PORT:-2181}:2181"
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+
+  demo-kahve-kafka:
+    image: confluentinc/cp-kafka:7.5.0
+    container_name: demo-kahve-kafka
+    depends_on:
+      - demo-kahve-zookeeper
+    ports:
+      - "${KAFKA_PORT:-9092}:9092"
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: demo-kahve-zookeeper:2181
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://demo-kahve-kafka:9092
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+
+  demo-kahve-kafdrop:
+    image: obsidiandynamics/kafdrop:latest
+    container_name: demo-kahve-kafdrop
+    ports:
+      - "${KAFDROP_PORT:-9000}:9000"
+    depends_on:
+      - demo-kahve-kafka
+    environment:
+      KAFKA_BROKERCONNECT: demo-kahve-kafka:9092
+        
+  quickcode-demo-kahve-portal:
+    container_name: "quickcode-demo-kahve-portal"
+    image: ${DOCKER_REGISTRY-}quickcode-demo-kahve-portal
+    build:
+      context: .
+      dockerfile: Presentation/QuickCode.Demo-kahve.Portal/Dockerfile
+      
+  quickcode-demo-kahve-event-listener-service:
+    container_name: "quickcode-demo-kahve-event-listener-service"
+    image: ${DOCKER_REGISTRY-}quickcode-demo-kahve-event-listener-service
+    build:
+      context: .
+      dockerfile: Services/QuickCode.Demo-kahve.EventListenerService/Dockerfile

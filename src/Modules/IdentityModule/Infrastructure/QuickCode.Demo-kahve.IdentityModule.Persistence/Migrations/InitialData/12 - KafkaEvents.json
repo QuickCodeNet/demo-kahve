@@ -1,0 +1,694 @@
+﻿{
+"KafkaEvents": [
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymodulemodulesModulesController",
+    "TopicName": "demo-kahve.identity_module.modules_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymodulemodulesnameModulesController",
+    "TopicName": "demo-kahve.identity_module.modules_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulemodulesnameModulesController",
+    "TopicName": "demo-kahve.identity_module.modules_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulemodelsdeletemodelswithmodulenamemodelsmodulenameModelsController",
+    "TopicName": "demo-kahve.identity_module.models.delete_models_with_module_name_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymodulemodelsModelsController",
+    "TopicName": "demo-kahve.identity_module.models_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymodulemodelsnamemodulenameModelsController",
+    "TopicName": "demo-kahve.identity_module.models_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulemodelsnamemodulenameModelsController",
+    "TopicName": "demo-kahve.identity_module.models_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymodulepermissiongroupsPermissionGroupsController",
+    "TopicName": "demo-kahve.identity_module.permission_groups_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymodulepermissiongroupsnamePermissionGroupsController",
+    "TopicName": "demo-kahve.identity_module.permission_groups_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulepermissiongroupsnamePermissionGroupsController",
+    "TopicName": "demo-kahve.identity_module.permission_groups_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleapimethoddefinitionsdeleteapimethoddefinitionswithmodulenameapimethoddefinitionsmodulenameApiMethodDefinitionsController",
+    "TopicName": "demo-kahve.identity_module.api_method_definitions.delete_api_method_definitions_with_module_name_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleapimethoddefinitionsdeleteapimethoddefinitionswithmodelnameapimethoddefinitionsmodelnameApiMethodDefinitionsController",
+    "TopicName": "demo-kahve.identity_module.api_method_definitions.delete_api_method_definitions_with_model_name_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleapimethoddefinitionsApiMethodDefinitionsController",
+    "TopicName": "demo-kahve.identity_module.api_method_definitions_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleapimethoddefinitionskeyApiMethodDefinitionsController",
+    "TopicName": "demo-kahve.identity_module.api_method_definitions_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleapimethoddefinitionskeyApiMethodDefinitionsController",
+    "TopicName": "demo-kahve.identity_module.api_method_definitions_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalpagedefinitionsdeleteportalpagedefinitionswithmodulenameportalpagedefinitionsmodulenamePortalPageDefinitionsController",
+    "TopicName": "demo-kahve.identity_module.portal_page_definitions.delete_portal_page_definitions_with_module_name_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalpagedefinitionsdeleteportalpagedefinitionswithmodelnameportalpagedefinitionsmodelnamePortalPageDefinitionsController",
+    "TopicName": "demo-kahve.identity_module.portal_page_definitions.delete_portal_page_definitions_with_model_name_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleportalpagedefinitionsPortalPageDefinitionsController",
+    "TopicName": "demo-kahve.identity_module.portal_page_definitions_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleportalpagedefinitionskeyPortalPageDefinitionsController",
+    "TopicName": "demo-kahve.identity_module.portal_page_definitions_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalpagedefinitionskeyPortalPageDefinitionsController",
+    "TopicName": "demo-kahve.identity_module.portal_page_definitions_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleapimethodaccessgrantsclearapimethodaccessgrantsApiMethodAccessGrantsController",
+    "TopicName": "demo-kahve.identity_module.api_method_access_grants.clear_api_method_access_grants_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleapimethodaccessgrantsApiMethodAccessGrantsController",
+    "TopicName": "demo-kahve.identity_module.api_method_access_grants_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleapimethodaccessgrantspermissiongroupnameapimethoddefinitionkeyApiMethodAccessGrantsController",
+    "TopicName": "demo-kahve.identity_module.api_method_access_grants_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleapimethodaccessgrantspermissiongroupnameapimethoddefinitionkeyApiMethodAccessGrantsController",
+    "TopicName": "demo-kahve.identity_module.api_method_access_grants_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalpageaccessgrantsclearportalpageaccessgrantsPortalPageAccessGrantsController",
+    "TopicName": "demo-kahve.identity_module.portal_page_access_grants.clear_portal_page_access_grants_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleportalpageaccessgrantsPortalPageAccessGrantsController",
+    "TopicName": "demo-kahve.identity_module.portal_page_access_grants_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleportalpageaccessgrantspermissiongroupnameportalpagedefinitionkeypageactionPortalPageAccessGrantsController",
+    "TopicName": "demo-kahve.identity_module.portal_page_access_grants_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalpageaccessgrantspermissiongroupnameportalpagedefinitionkeypageactionPortalPageAccessGrantsController",
+    "TopicName": "demo-kahve.identity_module.portal_page_access_grants_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalmenusdeleteportalmenuitemswithmodulenameportalmenuskeyPortalMenusController",
+    "TopicName": "demo-kahve.identity_module.portal_menus.delete_portal_menu_items_with_module_name_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalmenusdeleteportalmenuitemswithmodelnameportalmenuskeyportalmenusnamePortalMenusController",
+    "TopicName": "demo-kahve.identity_module.portal_menus.delete_portal_menu_items_with_model_name_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleportalmenusPortalMenusController",
+    "TopicName": "demo-kahve.identity_module.portal_menus_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleportalmenuskeyPortalMenusController",
+    "TopicName": "demo-kahve.identity_module.portal_menus_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalmenuskeyPortalMenusController",
+    "TopicName": "demo-kahve.identity_module.portal_menus_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymodulecolumntypesColumnTypesController",
+    "TopicName": "demo-kahve.identity_module.column_types_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymodulecolumntypesidintColumnTypesController",
+    "TopicName": "demo-kahve.identity_module.column_types_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulecolumntypesidintColumnTypesController",
+    "TopicName": "demo-kahve.identity_module.column_types_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduletablecomboboxsettingsTableComboboxSettingsController",
+    "TopicName": "demo-kahve.identity_module.table_combobox_settings_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduletablecomboboxsettingstablenameTableComboboxSettingsController",
+    "TopicName": "demo-kahve.identity_module.table_combobox_settings_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduletablecomboboxsettingstablenameTableComboboxSettingsController",
+    "TopicName": "demo-kahve.identity_module.table_combobox_settings_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulekafkaeventscleankafkaeventswithmodulenameapimethoddefinitionsmodulenameKafkaEventsController",
+    "TopicName": "demo-kahve.identity_module.kafka_events.clean_kafka_events_with_module_name_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulekafkaeventscleankafkaeventswithmodelnameapimethoddefinitionsmodelnameKafkaEventsController",
+    "TopicName": "demo-kahve.identity_module.kafka_events.clean_kafka_events_with_model_name_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymodulekafkaeventsKafkaEventsController",
+    "TopicName": "demo-kahve.identity_module.kafka_events_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymodulekafkaeventstopicnameKafkaEventsController",
+    "TopicName": "demo-kahve.identity_module.kafka_events_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulekafkaeventstopicnameKafkaEventsController",
+    "TopicName": "demo-kahve.identity_module.kafka_events_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduletopicworkflowsTopicWorkflowsController",
+    "TopicName": "demo-kahve.identity_module.topic_workflows_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduletopicworkflowsidintTopicWorkflowsController",
+    "TopicName": "demo-kahve.identity_module.topic_workflows_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduletopicworkflowsidintTopicWorkflowsController",
+    "TopicName": "demo-kahve.identity_module.topic_workflows_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleaspnetrolesAspNetRolesController",
+    "TopicName": "demo-kahve.identity_module.asp_net_roles_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleaspnetrolesidAspNetRolesController",
+    "TopicName": "demo-kahve.identity_module.asp_net_roles_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleaspnetrolesidAspNetRolesController",
+    "TopicName": "demo-kahve.identity_module.asp_net_roles_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleaspnetusersAspNetUsersController",
+    "TopicName": "demo-kahve.identity_module.asp_net_users_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleaspnetusersidAspNetUsersController",
+    "TopicName": "demo-kahve.identity_module.asp_net_users_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleaspnetusersidAspNetUsersController",
+    "TopicName": "demo-kahve.identity_module.asp_net_users_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiidentitymodulerefreshtokensupdaterefreshtokensrefreshtokenstokenRefreshTokensController",
+    "TopicName": "demo-kahve.identity_module.refresh_tokens.update_refresh_tokens_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymodulerefreshtokensRefreshTokensController",
+    "TopicName": "demo-kahve.identity_module.refresh_tokens_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymodulerefreshtokensidintRefreshTokensController",
+    "TopicName": "demo-kahve.identity_module.refresh_tokens_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulerefreshtokensidintRefreshTokensController",
+    "TopicName": "demo-kahve.identity_module.refresh_tokens_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleaspnetroleclaimsAspNetRoleClaimsController",
+    "TopicName": "demo-kahve.identity_module.asp_net_role_claims_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleaspnetroleclaimsidintAspNetRoleClaimsController",
+    "TopicName": "demo-kahve.identity_module.asp_net_role_claims_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleaspnetroleclaimsidintAspNetRoleClaimsController",
+    "TopicName": "demo-kahve.identity_module.asp_net_role_claims_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleaspnetuserclaimsAspNetUserClaimsController",
+    "TopicName": "demo-kahve.identity_module.asp_net_user_claims_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleaspnetuserclaimsidintAspNetUserClaimsController",
+    "TopicName": "demo-kahve.identity_module.asp_net_user_claims_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleaspnetuserclaimsidintAspNetUserClaimsController",
+    "TopicName": "demo-kahve.identity_module.asp_net_user_claims_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleaspnetuserloginsAspNetUserLoginsController",
+    "TopicName": "demo-kahve.identity_module.asp_net_user_logins_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleaspnetuserloginsloginproviderproviderkeyAspNetUserLoginsController",
+    "TopicName": "demo-kahve.identity_module.asp_net_user_logins_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleaspnetuserloginsloginproviderproviderkeyAspNetUserLoginsController",
+    "TopicName": "demo-kahve.identity_module.asp_net_user_logins_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleaspnetuserrolesAspNetUserRolesController",
+    "TopicName": "demo-kahve.identity_module.asp_net_user_roles_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleaspnetuserrolesuseridroleidAspNetUserRolesController",
+    "TopicName": "demo-kahve.identity_module.asp_net_user_roles_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleaspnetuserrolesuseridroleidAspNetUserRolesController",
+    "TopicName": "demo-kahve.identity_module.asp_net_user_roles_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleaspnetusertokensAspNetUserTokensController",
+    "TopicName": "demo-kahve.identity_module.asp_net_user_tokens_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleaspnetusertokensuseridAspNetUserTokensController",
+    "TopicName": "demo-kahve.identity_module.asp_net_user_tokens_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleaspnetusertokensuseridAspNetUserTokensController",
+    "TopicName": "demo-kahve.identity_module.asp_net_user_tokens_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleauditlogsAuditLogsController",
+    "TopicName": "demo-kahve.identity_module.audit_logs_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleauditlogsidguidAuditLogsController",
+    "TopicName": "demo-kahve.identity_module.audit_logs_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleauditlogsidguidAuditLogsController",
+    "TopicName": "demo-kahve.identity_module.audit_logs_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiproductionmodulemodulecoffeebeansupdateweightcoffeebeansidintCoffeeBeansController",
+    "TopicName": "demo-kahve.production_module_module.coffee_beans.update_weight_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiproductionmodulemodulecoffeebeansCoffeeBeansController",
+    "TopicName": "demo-kahve.production_module_module.coffee_beans_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiproductionmodulemodulecoffeebeansidintCoffeeBeansController",
+    "TopicName": "demo-kahve.production_module_module.coffee_beans_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiproductionmodulemodulecoffeebeansidintCoffeeBeansController",
+    "TopicName": "demo-kahve.production_module_module.coffee_beans_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiproductionmodulemoduleroastingprocessesupdatestatusroastingprocessesidintRoastingProcessesController",
+    "TopicName": "demo-kahve.production_module_module.roasting_processes.update_status_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiproductionmodulemoduleroastingprocessesRoastingProcessesController",
+    "TopicName": "demo-kahve.production_module_module.roasting_processes_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiproductionmodulemoduleroastingprocessesidintRoastingProcessesController",
+    "TopicName": "demo-kahve.production_module_module.roasting_processes_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiproductionmodulemoduleroastingprocessesidintRoastingProcessesController",
+    "TopicName": "demo-kahve.production_module_module.roasting_processes_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiproductionmodulemodulegrindingprocessesupdatestatusgrindingprocessesidintGrindingProcessesController",
+    "TopicName": "demo-kahve.production_module_module.grinding_processes.update_status_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiproductionmodulemodulegrindingprocessesGrindingProcessesController",
+    "TopicName": "demo-kahve.production_module_module.grinding_processes_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiproductionmodulemodulegrindingprocessesidintGrindingProcessesController",
+    "TopicName": "demo-kahve.production_module_module.grinding_processes_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiproductionmodulemodulegrindingprocessesidintGrindingProcessesController",
+    "TopicName": "demo-kahve.production_module_module.grinding_processes_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiproductionmodulemodulepackagingprocessesupdatestatuspackagingprocessesidintPackagingProcessesController",
+    "TopicName": "demo-kahve.production_module_module.packaging_processes.update_status_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiproductionmodulemodulepackagingprocessesPackagingProcessesController",
+    "TopicName": "demo-kahve.production_module_module.packaging_processes_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiproductionmodulemodulepackagingprocessesidintPackagingProcessesController",
+    "TopicName": "demo-kahve.production_module_module.packaging_processes_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiproductionmodulemodulepackagingprocessesidintPackagingProcessesController",
+    "TopicName": "demo-kahve.production_module_module.packaging_processes_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiproductionmodulemoduleproductionerrorsProductionErrorsController",
+    "TopicName": "demo-kahve.production_module_module.production_errors_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiproductionmodulemoduleproductionerrorsidintProductionErrorsController",
+    "TopicName": "demo-kahve.production_module_module.production_errors_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiproductionmodulemoduleproductionerrorsidintProductionErrorsController",
+    "TopicName": "demo-kahve.production_module_module.production_errors_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiproductionmodulemoduleprocessequipmentsdeactivateprocessequipmentsidintProcessEquipmentsController",
+    "TopicName": "demo-kahve.production_module_module.process_equipments.deactivate_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiproductionmodulemoduleprocessequipmentsProcessEquipmentsController",
+    "TopicName": "demo-kahve.production_module_module.process_equipments_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiproductionmodulemoduleprocessequipmentsidintProcessEquipmentsController",
+    "TopicName": "demo-kahve.production_module_module.process_equipments_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiproductionmodulemoduleprocessequipmentsidintProcessEquipmentsController",
+    "TopicName": "demo-kahve.production_module_module.process_equipments_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiproductionmodulemoduleauditlogsAuditLogsController",
+    "TopicName": "demo-kahve.production_module_module.audit_logs_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiproductionmodulemoduleauditlogsidguidAuditLogsController",
+    "TopicName": "demo-kahve.production_module_module.audit_logs_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiproductionmodulemoduleauditlogsidguidAuditLogsController",
+    "TopicName": "demo-kahve.production_module_module.audit_logs_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapirecipemodulemodulerecipesdeactivaterecipesidintRecipesController",
+    "TopicName": "demo-kahve.recipe_module_module.recipes.deactivate_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapirecipemodulemodulerecipesRecipesController",
+    "TopicName": "demo-kahve.recipe_module_module.recipes_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapirecipemodulemodulerecipesidintRecipesController",
+    "TopicName": "demo-kahve.recipe_module_module.recipes_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapirecipemodulemodulerecipesidintRecipesController",
+    "TopicName": "demo-kahve.recipe_module_module.recipes_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapirecipemodulemodulerecipeingredientsRecipeIngredientsController",
+    "TopicName": "demo-kahve.recipe_module_module.recipe_ingredients_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapirecipemodulemodulerecipeingredientsidintRecipeIngredientsController",
+    "TopicName": "demo-kahve.recipe_module_module.recipe_ingredients_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapirecipemodulemodulerecipeingredientsidintRecipeIngredientsController",
+    "TopicName": "demo-kahve.recipe_module_module.recipe_ingredients_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapirecipemodulemodulerecipeequipmentsRecipeEquipmentsController",
+    "TopicName": "demo-kahve.recipe_module_module.recipe_equipments_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapirecipemodulemodulerecipeequipmentsidintRecipeEquipmentsController",
+    "TopicName": "demo-kahve.recipe_module_module.recipe_equipments_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapirecipemodulemodulerecipeequipmentsidintRecipeEquipmentsController",
+    "TopicName": "demo-kahve.recipe_module_module.recipe_equipments_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapirecipemodulemodulerecipenotesRecipeNotesController",
+    "TopicName": "demo-kahve.recipe_module_module.recipe_notes_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapirecipemodulemodulerecipenotesidintRecipeNotesController",
+    "TopicName": "demo-kahve.recipe_module_module.recipe_notes_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapirecipemodulemodulerecipenotesidintRecipeNotesController",
+    "TopicName": "demo-kahve.recipe_module_module.recipe_notes_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapirecipemodulemodulerecipeimagesRecipeImagesController",
+    "TopicName": "demo-kahve.recipe_module_module.recipe_images_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapirecipemodulemodulerecipeimagesidintRecipeImagesController",
+    "TopicName": "demo-kahve.recipe_module_module.recipe_images_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapirecipemodulemodulerecipeimagesidintRecipeImagesController",
+    "TopicName": "demo-kahve.recipe_module_module.recipe_images_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapirecipemodulemodulerecipecategoriesdeactivaterecipecategoriesidintRecipeCategoriesController",
+    "TopicName": "demo-kahve.recipe_module_module.recipe_categories.deactivate_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapirecipemodulemodulerecipecategoriesRecipeCategoriesController",
+    "TopicName": "demo-kahve.recipe_module_module.recipe_categories_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapirecipemodulemodulerecipecategoriesidintRecipeCategoriesController",
+    "TopicName": "demo-kahve.recipe_module_module.recipe_categories_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapirecipemodulemodulerecipecategoriesidintRecipeCategoriesController",
+    "TopicName": "demo-kahve.recipe_module_module.recipe_categories_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapirecipemodulemodulerecipecategoryassignmentsRecipeCategoryAssignmentsController",
+    "TopicName": "demo-kahve.recipe_module_module.recipe_category_assignments_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapirecipemodulemodulerecipecategoryassignmentsidintRecipeCategoryAssignmentsController",
+    "TopicName": "demo-kahve.recipe_module_module.recipe_category_assignments_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapirecipemodulemodulerecipecategoryassignmentsidintRecipeCategoryAssignmentsController",
+    "TopicName": "demo-kahve.recipe_module_module.recipe_category_assignments_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapirecipemodulemoduleauditlogsAuditLogsController",
+    "TopicName": "demo-kahve.recipe_module_module.audit_logs_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapirecipemodulemoduleauditlogsidguidAuditLogsController",
+    "TopicName": "demo-kahve.recipe_module_module.audit_logs_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapirecipemodulemoduleauditlogsidguidAuditLogsController",
+    "TopicName": "demo-kahve.recipe_module_module.audit_logs_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleportalpagedefinitionsupdateportalpagepermissionPortalPageDefinitionsController",
+    "TopicName": "demo-kahve.identity_module.portal_page_definitions.update_portal_page_permission_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleapimethoddefinitionsupdateapipermissionApiMethodDefinitionsController",
+    "TopicName": "demo-kahve.identity_module.api_method_definitions.update_api_permission_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiauthregisterAuthenticationsController",
+    "TopicName": "demo-kahve.auth.register_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiauthloginAuthenticationsController",
+    "TopicName": "demo-kahve.auth.login_post",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiauthvalidateAuthenticationsController",
+    "TopicName": "demo-kahve.auth.validate_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiauthrefreshAuthenticationsController",
+    "TopicName": "demo-kahve.auth.refresh_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiauthresendconfirmationemailAuthenticationsController",
+    "TopicName": "demo-kahve.auth.resendconfirmationemail_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiauthforgotpasswordAuthenticationsController",
+    "TopicName": "demo-kahve.auth.forgotpassword_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiauthresetpasswordAuthenticationsController",
+    "TopicName": "demo-kahve.auth.resetpassword_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "Postapiauthmanageuser2faAuthenticationsController",
+    "TopicName": "demo-kahve.auth.manage.user2fa_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiauthmanageinfoAuthenticationsController",
+    "TopicName": "demo-kahve.auth.manage.info_post",
+    "IsActive": false
+  }
+]
+}

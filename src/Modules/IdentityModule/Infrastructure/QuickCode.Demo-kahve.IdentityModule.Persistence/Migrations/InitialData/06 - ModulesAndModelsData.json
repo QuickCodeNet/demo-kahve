@@ -1,0 +1,203 @@
+﻿{
+  "Modules": [
+    {
+      "Name": "IdentityModule",
+      "Description": "IdentityModule"
+    },
+    {
+      "Name": "ProductionModuleModule",
+      "Description": "ProductionModuleModule"
+    },
+    {
+      "Name": "RecipeModuleModule",
+      "Description": "RecipeModuleModule"
+    }
+  ],
+  "Models": [
+    {
+      "Name": "ApiMethodAccessGrants",
+      "ModuleName": "IdentityModule",
+      "Description": "IdentityModule - ApiMethodAccessGrant"
+    },
+    {
+      "Name": "ApiMethodDefinitions",
+      "ModuleName": "IdentityModule",
+      "Description": "IdentityModule - ApiMethodDefinition"
+    },
+    {
+      "Name": "AspNetRoles",
+      "ModuleName": "IdentityModule",
+      "Description": "IdentityModule - AspNetRole"
+    },
+    {
+      "Name": "AspNetRoleClaims",
+      "ModuleName": "IdentityModule",
+      "Description": "IdentityModule - AspNetRoleClaim"
+    },
+    {
+      "Name": "AspNetUsers",
+      "ModuleName": "IdentityModule",
+      "Description": "IdentityModule - AspNetUser"
+    },
+    {
+      "Name": "AspNetUserClaims",
+      "ModuleName": "IdentityModule",
+      "Description": "IdentityModule - AspNetUserClaim"
+    },
+    {
+      "Name": "AspNetUserLogins",
+      "ModuleName": "IdentityModule",
+      "Description": "IdentityModule - AspNetUserLogin"
+    },
+    {
+      "Name": "AspNetUserRoles",
+      "ModuleName": "IdentityModule",
+      "Description": "IdentityModule - AspNetUserRole"
+    },
+    {
+      "Name": "AspNetUserTokens",
+      "ModuleName": "IdentityModule",
+      "Description": "IdentityModule - AspNetUserToken"
+    },
+    {
+      "Name": "AuditLogs",
+      "ModuleName": "IdentityModule",
+      "Description": "IdentityModule - AuditLog"
+    },
+    {
+      "Name": "ColumnTypes",
+      "ModuleName": "IdentityModule",
+      "Description": "IdentityModule - ColumnType"
+    },
+    {
+      "Name": "KafkaEvents",
+      "ModuleName": "IdentityModule",
+      "Description": "IdentityModule - KafkaEvent"
+    },
+    {
+      "Name": "Models",
+      "ModuleName": "IdentityModule",
+      "Description": "IdentityModule - Model"
+    },
+    {
+      "Name": "Modules",
+      "ModuleName": "IdentityModule",
+      "Description": "IdentityModule - Module"
+    },
+    {
+      "Name": "PermissionGroups",
+      "ModuleName": "IdentityModule",
+      "Description": "IdentityModule - PermissionGroup"
+    },
+    {
+      "Name": "PortalMenus",
+      "ModuleName": "IdentityModule",
+      "Description": "IdentityModule - PortalMenu"
+    },
+    {
+      "Name": "PortalPageAccessGrants",
+      "ModuleName": "IdentityModule",
+      "Description": "IdentityModule - PortalPageAccessGrant"
+    },
+    {
+      "Name": "PortalPageDefinitions",
+      "ModuleName": "IdentityModule",
+      "Description": "IdentityModule - PortalPageDefinition"
+    },
+    {
+      "Name": "RefreshTokens",
+      "ModuleName": "IdentityModule",
+      "Description": "IdentityModule - RefreshToken"
+    },
+    {
+      "Name": "TableComboboxSettings",
+      "ModuleName": "IdentityModule",
+      "Description": "IdentityModule - TableComboboxSetting"
+    },
+    {
+      "Name": "TopicWorkflows",
+      "ModuleName": "IdentityModule",
+      "Description": "IdentityModule - TopicWorkflow"
+    },
+    {
+      "Name": "AuditLogs",
+      "ModuleName": "ProductionModuleModule",
+      "Description": "ProductionModuleModule - AuditLog"
+    },
+    {
+      "Name": "CoffeeBeans",
+      "ModuleName": "ProductionModuleModule",
+      "Description": "ProductionModuleModule - CoffeeBean"
+    },
+    {
+      "Name": "GrindingProcesses",
+      "ModuleName": "ProductionModuleModule",
+      "Description": "ProductionModuleModule - GrindingProcess"
+    },
+    {
+      "Name": "PackagingProcesses",
+      "ModuleName": "ProductionModuleModule",
+      "Description": "ProductionModuleModule - PackagingProcess"
+    },
+    {
+      "Name": "ProcessEquipments",
+      "ModuleName": "ProductionModuleModule",
+      "Description": "ProductionModuleModule - ProcessEquipment"
+    },
+    {
+      "Name": "ProductionErrors",
+      "ModuleName": "ProductionModuleModule",
+      "Description": "ProductionModuleModule - ProductionError"
+    },
+    {
+      "Name": "RoastingProcesses",
+      "ModuleName": "ProductionModuleModule",
+      "Description": "ProductionModuleModule - RoastingProcess"
+    },
+    {
+      "Name": "AuditLogs",
+      "ModuleName": "RecipeModuleModule",
+      "Description": "RecipeModuleModule - AuditLog"
+    },
+    {
+      "Name": "Recipes",
+      "ModuleName": "RecipeModuleModule",
+      "Description": "RecipeModuleModule - Recipe"
+    },
+    {
+      "Name": "RecipeCategories",
+      "ModuleName": "RecipeModuleModule",
+      "Description": "RecipeModuleModule - RecipeCategory"
+    },
+    {
+      "Name": "RecipeCategoryAssignments",
+      "ModuleName": "RecipeModuleModule",
+      "Description": "RecipeModuleModule - RecipeCategoryAssignment"
+    },
+    {
+      "Name": "RecipeEquipments",
+      "ModuleName": "RecipeModuleModule",
+      "Description": "RecipeModuleModule - RecipeEquipment"
+    },
+    {
+      "Name": "RecipeImages",
+      "ModuleName": "RecipeModuleModule",
+      "Description": "RecipeModuleModule - RecipeImage"
+    },
+    {
+      "Name": "RecipeIngredients",
+      "ModuleName": "RecipeModuleModule",
+      "Description": "RecipeModuleModule - RecipeIngredient"
+    },
+    {
+      "Name": "RecipeNotes",
+      "ModuleName": "RecipeModuleModule",
+      "Description": "RecipeModuleModule - RecipeNote"
+    },
+    {
+      "Name": "Authentications",
+      "ModuleName": "IdentityModule",
+      "Description": "IdentityModule- Authentications"
+    }
+  ]
+}

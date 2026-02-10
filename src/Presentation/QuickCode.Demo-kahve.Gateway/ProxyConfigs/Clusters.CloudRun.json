@@ -1,0 +1,120 @@
+{
+  "ReverseProxy": {
+    "clusters": {
+      "auth-api": {
+        "clusterId": "auth-api",
+        "destinations": {
+          "destination1": {
+            "address": "https://demo-kahve-identity-module-821209474183.europe-west1.run.app"
+          }
+        }
+      },
+      "identity-module-api": {
+        "clusterId": "identity-module-api",
+        "destinations": {
+          "destination1": {
+            "address": "https://demo-kahve-identity-module-821209474183.europe-west1.run.app"
+          }
+        }
+      },
+      "production-module-module-api": {
+        "clusterId": "production-module-module-api",
+        "destinations": {
+          "destination1": {
+            "address": "https://demo-kahve-production-module-module-821209474183.europe-west1.run.app"
+          }
+        }
+      },
+      "recipe-module-module-api": {
+        "clusterId": "recipe-module-module-api",
+        "destinations": {
+          "destination1": {
+            "address": "https://demo-kahve-recipe-module-module-821209474183.europe-west1.run.app"
+          }
+        }
+      }
+    },
+    "routes": {
+      "auth": {
+        "routeId": "auth",
+        "clusterId": "auth-api",
+        "authorizationPolicy": null,
+        "match": {
+          "path": "api/auth/{**catch-all}",
+          "hosts": [
+            "localhost:6060",
+            "demo-kahve-gateway-821209474183.europe-west1.run.app",
+            "demo-kahve-gateway",
+            "quickcode-demo-kahve-gateway-api",
+            "demo-kahve-gateway.quickcode.net"
+          ]
+        },
+        "transforms": [
+          {
+            "PathPattern": "api/auth/{**catch-all}"
+          }
+        ]
+      },
+      "identity-module": {
+        "routeId": "identity-module",
+        "clusterId": "identity-module-api",
+        "authorizationPolicy": "QuickCodeGatewayPolicy",
+        "match": {
+          "path": "api/identity-module/{**catch-all}",
+          "hosts": [
+            "localhost:6060",
+            "demo-kahve-gateway-821209474183.europe-west1.run.app",
+            "demo-kahve-gateway",
+            "quickcode-demo-kahve-gateway-api",
+            "demo-kahve-gateway.quickcode.net"
+          ]
+        },
+        "transforms": [
+          {
+            "PathPattern": "api/identity-module/{**catch-all}"
+          }
+        ]
+      },
+      "production-module-module": {
+        "routeId": "production-module-module",
+        "clusterId": "production-module-module-api",
+        "authorizationPolicy": "QuickCodeGatewayPolicy",
+        "match": {
+          "path": "api/production-module-module/{**catch-all}",
+          "hosts": [
+            "localhost:6060",
+            "demo-kahve-gateway-821209474183.europe-west1.run.app",
+            "demo-kahve-gateway",
+            "quickcode-demo-kahve-gateway-api",
+            "demo-kahve-gateway.quickcode.net"
+          ]
+        },
+        "transforms": [
+          {
+            "PathPattern": "api/production-module-module/{**catch-all}"
+          }
+        ]
+      },
+      "recipe-module-module": {
+        "routeId": "recipe-module-module",
+        "clusterId": "recipe-module-module-api",
+        "authorizationPolicy": "QuickCodeGatewayPolicy",
+        "match": {
+          "path": "api/recipe-module-module/{**catch-all}",
+          "hosts": [
+            "localhost:6060",
+            "demo-kahve-gateway-821209474183.europe-west1.run.app",
+            "demo-kahve-gateway",
+            "quickcode-demo-kahve-gateway-api",
+            "demo-kahve-gateway.quickcode.net"
+          ]
+        },
+        "transforms": [
+          {
+            "PathPattern": "api/recipe-module-module/{**catch-all}"
+          }
+        ]
+      }
+    }
+  }
+}
